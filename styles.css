@@ -28,11 +28,11 @@ p {
 
 /* Applying animations */
 .animated-slide-right {
-    animation: slide-right 1s ease-in-out;
+    animation: slide-right 1.5s ease-in-out;
 }
 
 .animated-slide-left {
-    animation: slide-left 1s ease-in-out;
+    animation: slide-left 1.5s ease-in-out;
 }
 
 /* Hero Section */
@@ -124,7 +124,7 @@ p {
 
 /* Projects Section Styles */
 .projects-section {
-    background-color: #fff;
+    background-color: #CCCCCC;
     padding: 40px 0;
     text-align: center;
 }
