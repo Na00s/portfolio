@@ -73,31 +73,6 @@ body, html {
     text-align: left;
 }
 
-/* Resume Section */
-.resume-section {
-    text-align: center;
-    padding: 20px;
-    background-color: #f5f5dc;
-}
-
-.resume-section h2 {
-    font-size: 1.5em;
-}
-
-.resume-link {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #2196f3; /* Button background color */
-    color: #fff; /* Text color */
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 10px;
-    transition: background-color 0.3s ease;
-}
-
-.resume-link:hover {
-    background-color: #c7ad58; /* Button background color on hover */
-}
 
 h1 {
     font-size: 2em;
