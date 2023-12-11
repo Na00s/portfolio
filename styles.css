@@ -26,6 +26,15 @@ p {
     to { transform: translateX(0); }
 }
 
+/* Applying animations */
+.animated-slide-right {
+    animation: slide-right 1s ease-in-out;
+}
+
+.animated-slide-left {
+    animation: slide-left 1s ease-in-out;
+}
+
 /* Hero Section */
 .hero {
     background-image: url('images/background.png');
@@ -60,7 +69,9 @@ p {
     gap: 10px;
 }
 
-.nav-links li { display: inline-block; }
+.nav-links li { 
+    display: inline-block; 
+}
 
 .nav-links a {
     text-decoration: none;
@@ -87,7 +98,10 @@ p {
 }
 
 /* Welcome Text */
-.welcome-text { max-width: 600px; text-align: left; }
+.welcome-text { 
+    max-width: 600px; 
+    text-align: left; 
+}
 
 /* Section Divider Styles */
 .section-divider {
@@ -120,7 +134,9 @@ p {
     margin-bottom: 20px;
 }
 
-.project { margin-bottom: 20px; }
+.project { 
+    margin-bottom: 20px; 
+}
 
 /* Contact Section Styles */
 .contact-section {
@@ -144,6 +160,7 @@ p {
     width: 50px;
     height: 50px;
 }
+
 
 
 
