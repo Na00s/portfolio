@@ -36,7 +36,7 @@ body, html {
     top: -5px; /* Adjust to align with the line */
     width: 100px; /* Length of the decorative part */
     height: 10px; /* Thickness of the decorative part */
-    background: linear-gradient(to right, #00C6FF, #0072FF); /* Futuristic gradient */
+    background: linear-gradient(to right, #ffffff, #c4b06f); /* Futuristic gradient */
     border-radius: 5px;
     transform: translateX(-50%);
 }
