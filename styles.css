@@ -123,6 +123,24 @@ body, html {
 }
 
 
+/* Projects Section Styles */
+.projects-section {
+    background-color: #fff; /* Adjust the background color as needed */
+    padding: 40px 0; /* Add some padding */
+    text-align: center; /* Center the content */
+}
+
+.projects-section h2 {
+    font-size: 2em; /* Adjust the size as needed */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.project {
+    margin-bottom: 20px; /* Space between projects */
+    /* Add more styles as needed */
+}
+
+
 
 
 
@@ -149,22 +167,6 @@ body, html {
     height: 50px; /* Adjust as needed */
 }
 
-/* Projects Section Styles */
-.projects-section {
-    background-color: #fff; /* Adjust the background color as needed */
-    padding: 40px 0; /* Add some padding */
-    text-align: center; /* Center the content */
-}
-
-.projects-section h2 {
-    font-size: 2em; /* Adjust the size as needed */
-    margin-bottom: 20px; /* Space below the title */
-}
-
-.project {
-    margin-bottom: 20px; /* Space between projects */
-    /* Add more styles as needed */
-}
 
 
 
