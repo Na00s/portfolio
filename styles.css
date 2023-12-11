@@ -35,12 +35,21 @@ p {
     animation: slide-left 1s ease-in-out;
 }
 
-/* Hero Section */
 .hero {
-    background-image: url('images/background.png');
-    background-size: cover;
-    background-position: center;
-    height: 60vh;
+    position: relative;
+    height: 60vh; /* Adjust the height as needed */
+    overflow: hidden;
+}
+
+#heroVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; /* Ensure the video is in the background */
 }
 
 /* Profile and Text Section */
