@@ -116,17 +116,15 @@ body, html {
     margin-bottom: 20px; /* Space below the title */
 }
 
-#contact {
+.contact-icons {
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
-    gap: 20px;
+    justify-content: center; /* Align icons horizontally and centered */
+    gap: 20px; /* Space between icons */
 }
 
 #contact a img {
     width: 50px; /* Adjust as needed */
     height: 50px; /* Adjust as needed */
-    margin: 0 10px; /* Space around icons */
 }
 
 
