@@ -34,6 +34,16 @@ body, html {
     text-decoration: none;
     color: #333; /* Adjust color for visibility */
     font-size: 1em;
+    padding: 5px 10px;
+    border: 2px solid #333; /* Adds a border to the buttons */
+    border-radius: 10px; /* Rounded corners for the buttons */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.nav-links a:hover {
+    background-color: #333; /* Button background on hover */
+    color: #fff; /* Text color on hover */
+    border-color: #fff; /* Border color on hover */
 }
 
 /* Profile and Text Section */
@@ -43,6 +53,7 @@ body, html {
     align-items: center;
     gap: 2em;
     padding: 20px;
+    background-color: #f5f5dc; /* Clear beige background for this section */
 }
 
 .profile-circle {
@@ -68,6 +79,7 @@ p {
     font-size: 1em;
     line-height: 1.5;
 }
+
 
 
 
