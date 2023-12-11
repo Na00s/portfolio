@@ -29,7 +29,7 @@ body, html {
 
 .nav-links a {
     text-decoration: none;
-    color: #fff; /* Keep links white for visibility */
+    color: #000; /* Keep links white for visibility */
     font-size: 1em;
     padding: 5px 10px;
     background-color: rgba(0, 0, 0, 0.2); /* Slightly dark background for each link */
