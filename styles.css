@@ -28,11 +28,11 @@ p {
 
 /* Applying animations */
 .animated-slide-right {
-    animation: slide-right 1.5s ease-in-out;
+    animation: slide-right 1s ease-in-out;
 }
 
 .animated-slide-left {
-    animation: slide-left 1.5s ease-in-out;
+    animation: slide-left 1s ease-in-out;
 }
 
 /* Hero Section */
@@ -105,21 +105,21 @@ p {
 
 /* Section Divider Styles */
 .section-divider {
-    border-bottom: 2px solid #CCCCCC;
+    border-bottom: 2px solid #CCCCCC; /* Light grey line */
     position: relative;
-    margin: 40px 0;
+    margin: 0; /* No vertical margin */
 }
 
 .section-divider::after {
     content: '';
     position: absolute;
     left: 50%;
-    top: -5px;
-    width: 100px;
-    height: 10px;
-    background: linear-gradient(to right, #ffffff, #c4b06f);
+    top: 50%; /* Adjusted to align with the border */
+    width: 100px; /* Length of the decorative part */
+    height: 10px; /* Thickness of the decorative part */
+    background: linear-gradient(to right, #ffffff, #c4b06f); /* Futuristic gradient */
     border-radius: 5px;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%); /* Center both horizontally and vertically */
 }
 
 /* Projects Section Styles */
@@ -160,6 +160,7 @@ p {
     width: 50px;
     height: 50px;
 }
+
 
 
 
