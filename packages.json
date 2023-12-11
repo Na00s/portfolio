@@ -6,7 +6,7 @@
     "scripts": {
       "test": "echo \"No test specified\" && exit 0"
     },
-    "author": "Your Name",
+    "author": "Ali Janati",
     "license": "ISC"
   }
   
