@@ -23,6 +23,28 @@ body, html {
     }
 }
 
+
+
+
+
+
+/* Hero Section */
+.hero {
+    background-image: url('images/background.png'); /* Path to the background image */
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+
+/* Profile and Text Section */
+.profile-and-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    padding: 83px;
+    background-color: #f5f5dc; /* Clear beige background */
+}
 /* Apply animations to the sections */
 .animated-slide-right {
     animation: slide-right 1s ease-in-out;
@@ -31,28 +53,6 @@ body, html {
 .animated-slide-left {
     animation: slide-left 1s ease-in-out;
 }
-
-
-
-
-/* Hero Section */
-.hero animated-slide-right {
-    background-image: url('images/background.png'); /* Path to the background image */
-    background-size: cover;
-    background-position: center;
-    height: 60vh;
-}
-
-/* Profile and Text Section */
-.profile-and-text animated-slide-left {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2em;
-    padding: 83px;
-    background-color: #f5f5dc; /* Clear beige background */
-}
-
 /* Navigation Bar */
 .navbar {
     display: flex;
