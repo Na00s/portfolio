@@ -104,6 +104,20 @@ body, html {
     text-align: left;
 }
 
+/* Contact Section Styles */
+#contact {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+#contact a img {
+    width: 50px;
+    height: 50px;
+}
+
+
 
 h1 {
     font-size: 2em;
