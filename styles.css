@@ -105,16 +105,27 @@ body, html {
 }
 
 /* Contact Section Styles */
+.contact-section {
+    background-color: #f5f5dc; /* Beige background */
+    text-align: center; /* Center the content */
+    padding: 40px 0; /* Add some padding */
+}
+
+.contact-section h2 {
+    font-size: 2em; /* Adjust the size as needed */
+    margin-bottom: 20px; /* Space below the title */
+}
+
 #contact {
     display: flex;
     justify-content: center;
     gap: 20px;
-    padding: 20px;
 }
 
 #contact a img {
-    width: 50px;
-    height: 50px;
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    margin: 0 10px; /* Space around icons */
 }
 
 
