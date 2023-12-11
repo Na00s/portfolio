@@ -6,19 +6,19 @@ body, html {
 
 /* Navigation Bar */
 .navbar {
-    position: absolute;
-    top: 0;
-    right: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    background-color: transparent; /* Make navbar background transparent */
     padding: 10px 20px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
     z-index: 1000;
 }
 
 .nav-links {
     list-style: none;
-    margin: 0;
     padding: 0;
+    margin: 0;
     text-align: right;
 }
 
@@ -29,14 +29,17 @@ body, html {
 
 .nav-links a {
     text-decoration: none;
-    color: #000; /* White color for links */
+    color: #fff; /* Keep links white for visibility */
     font-size: 1em;
-    padding: 5px 10px; /* Padding for better visibility and clickability */
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.2); /* Slightly dark background for each link */
+    border-radius: 5px; /* Optional: rounded corners */
 }
 
 .nav-links a:hover {
-    background-color: rgba(255, 255, 255, 0.3); /* Hover effect */
+    background-color: rgba(255, 255, 255, 0.3); /* Lighter background on hover */
 }
+
 
 /* Hero Section */
 .hero {
