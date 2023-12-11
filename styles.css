@@ -122,11 +122,12 @@ p {
     transform: translate(-50%, -50%); /* Center both horizontally and vertically */
 }
 
+
 /* Projects Section Styles */
 .projects-section {
     background-color: #f5f5dc;
-    padding: 40px 0;
     text-align: center;
+    padding: 40px 0;
 }
 
 .projects-section h2 {
@@ -134,9 +135,30 @@ p {
     margin-bottom: 20px;
 }
 
-.project { 
-    margin-bottom: 20px; 
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; /* Adjust the gap between items as needed */
+    padding: 20px;
 }
+
+.project {
+    background: #fff; /* White background for each project */
+    border: 1px solid #ddd; /* Border for each project */
+    border-radius: 10px; /* Rounded corners for each project */
+    overflow: hidden; /* Ensures content fits within the borders */
+}
+
+.project img {
+    width: 100%; /* Full width of the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.project h3 {
+    font-size: 1.2em;
+    margin: 10px 0; /* Space above and below the title */
+}
+
 
 /* Contact Section Styles */
 .contact-section {
