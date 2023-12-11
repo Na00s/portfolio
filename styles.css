@@ -1,46 +1,52 @@
 body, html {
-    height: 100%;
     margin: 0;
+    padding: 0;
     font-family: 'Arial', sans-serif;
 }
 
 .hero {
-    background-image: url('images/background.png'); /* Update with the path to the generated image */
+    background-image: url('images/background.png'); /* Update with the actual path to the new background image */
     background-size: cover;
     background-position: center;
-    text-align: left; /* Align text to the left */
-    padding: 50px; /* Add some padding */
-    display: flex;
-    align-items: center; /* Aligns vertically */
-    height: 100vh; /* Full height of the viewport */
+    height: 50vh; /* Adjust to cover the top half of the viewport */
 }
 
-.content {
+.welcome-section {
+    background-color: #f5f5dc; /* A soft beige background */
+    text-align: center;
+    padding: 2em 0;
+}
+
+.profile-and-text {
     display: flex;
-    align-items: center; /* Aligns items vertically */
+    justify-content: center;
+    align-items: center;
+    gap: 2em; /* Adjust the gap between the picture and the text */
 }
 
 .profile-circle {
-    width: 150px;
-    height: 150px;
-    background-image: url('images/1664743376786.jpeg'); /* Update with the path to your profile picture */
+    width: 200px; /* Adjust size as needed */
+    height: 200px; /* Adjust size as needed */
+    background-image: url('images/profile.jpeg'); /* Update with the actual path to your profile image */
     background-size: cover;
     border-radius: 50%;
-    margin-right: 30px; /* Space between the image and the text */
+    border: 4px solid white;
 }
 
 .welcome-text {
-    max-width: 600px; /* Keeps lines of text at a readable length */
+    max-width: 600px;
 }
 
 h1 {
-    font-size: 2em; /* Adjust font size as needed */
+    font-size: 2em;
     margin-bottom: 0.5em;
 }
 
 p {
     font-size: 1em;
+    line-height: 1.5;
 }
+
 
 
 
