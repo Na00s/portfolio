@@ -23,6 +23,24 @@ body, html {
     }
 }
 
+.section-divider {
+    border-bottom: 2px solid #CCCCCC; /* Light grey line */
+    position: relative;
+    margin: 40px 0; /* Adjust space around the line */
+}
+
+.section-divider::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: -5px; /* Adjust to align with the line */
+    width: 100px; /* Length of the decorative part */
+    height: 10px; /* Thickness of the decorative part */
+    background: linear-gradient(to right, #00C6FF, #0072FF); /* Futuristic gradient */
+    border-radius: 5px;
+    transform: translateX(-50%);
+}
+
 
 
 
@@ -104,6 +122,10 @@ body, html {
     text-align: left;
 }
 
+
+
+
+
 /* Contact Section Styles */
 .contact-section {
     background-color: #f5f5dc; /* Beige background */
@@ -125,6 +147,23 @@ body, html {
 #contact a img {
     width: 50px; /* Adjust as needed */
     height: 50px; /* Adjust as needed */
+}
+
+/* Projects Section Styles */
+.projects-section {
+    background-color: #fff; /* Adjust the background color as needed */
+    padding: 40px 0; /* Add some padding */
+    text-align: center; /* Center the content */
+}
+
+.projects-section h2 {
+    font-size: 2em; /* Adjust the size as needed */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.project {
+    margin-bottom: 20px; /* Space between projects */
+    /* Add more styles as needed */
 }
 
 
