@@ -10,8 +10,9 @@ body, html {
     top: 0;
     right: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
     padding: 10px 20px;
+    z-index: 1000;
 }
 
 .nav-links {
@@ -28,7 +29,7 @@ body, html {
 
 .nav-links a {
     text-decoration: none;
-    color: #fff; /* White color for links */
+    color: #000; /* White color for links */
     font-size: 1em;
     padding: 5px 10px; /* Padding for better visibility and clickability */
 }
