@@ -4,8 +4,39 @@ body, html {
     font-family: 'Helvetica', sans-serif;
 }
 
+/* Animation Keyframes */
+@keyframes slide-right {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes slide-left {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+/* Apply animations to the sections */
+.animated-slide-right {
+    animation: slide-right 1s ease-in-out;
+}
+
+.animated-slide-left {
+    animation: slide-left 1s ease-in-out;
+}
+
+
+
+
 /* Hero Section */
-.hero {
+.hero animated-slide-right {
     background-image: url('images/background.png'); /* Path to the background image */
     background-size: cover;
     background-position: center;
@@ -13,7 +44,7 @@ body, html {
 }
 
 /* Profile and Text Section */
-.profile-and-text {
+.profile-and-text animated-slide-left {
     display: flex;
     justify-content: center;
     align-items: center;
