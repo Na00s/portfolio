@@ -5,7 +5,7 @@ body, html {
 }
 
 .hero {
-    background-image: url('path-to-your-generated-background-image.png'); /* Update with the path to the generated image */
+    background-image: url('images/background.png'); /* Update with the path to the generated image */
     background-size: cover;
     background-position: center;
     text-align: left; /* Align text to the left */
