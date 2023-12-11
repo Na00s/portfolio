@@ -4,61 +4,47 @@ body, html {
     font-family: 'Arial', sans-serif;
 }
 
-/* Navigation Bar */
-.navbar {
-    position: absolute;
-    top: 10px; /* Adjust as needed */
-    right: 10px; /* Adjust as needed */
-    z-index: 1000; /* Ensures navbar is above other elements */
-    width: auto;
-    background-color: transparent;
-}
-
-.nav-links {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: right;
-}
-
-.nav-links li {
-    display: inline;
-    margin-left: 20px;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: #fff; /* White color for links */
-    font-size: 1em;
-    padding: 5px 10px; /* Padding for better visibility and clickability */
-    background-color: rgba(0, 0, 0, 0.2); /* Slightly dark background for each link */
-    border-radius: 5px;
-}
-
-.nav-links a:hover {
-    background-color: rgba(255, 255, 255, 0.3); /* Lighter background on hover */
-}
-
 /* Hero Section */
 .hero {
-    position: relative;
     background-image: url('images/background.png'); /* Path to the background image */
     background-size: cover;
     background-position: center;
     height: 60vh; /* Adjusted to show more of the background image */
 }
 
+/* Navigation Bar */
+.navbar {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block; /* Center align the inline list */
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333; /* Adjust color for visibility */
+    font-size: 1em;
+}
+
+/* Profile and Text Section */
 .profile-and-text {
-    position: relative;
-    z-index: 500; /* Lower than navbar to ensure navbar is on top */
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2em; /* Gap between the picture and text */
-    padding-top: 20px; /* Space for the navbar */
+    gap: 2em;
+    padding: 20px;
 }
 
-/* Profile Picture */
 .profile-circle {
     width: 200px;
     height: 200px;
@@ -68,7 +54,6 @@ body, html {
     border: 4px solid white;
 }
 
-/* Welcome Text */
 .welcome-text {
     max-width: 600px;
     text-align: left;
@@ -82,13 +67,6 @@ h1 {
 p {
     font-size: 1em;
     line-height: 1.5;
-}
-
-/* Welcome Section */
-.welcome-section {
-    background-color: #f5f5dc; /* Soft beige background */
-    padding: 2em 0;
-    text-align: center;
 }
 
 
