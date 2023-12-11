@@ -143,7 +143,7 @@ p {
 }
 
 .project {
-    background: #509ea8ea; /* White background for each project */
+    background: #eee7acf1; /* White background for each project */
     border: 1px solid #d8c415; /* Border for each project */
     border-radius: 10px; /* Rounded corners for each project */
     overflow: hidden; /* Ensures content fits within the borders */
