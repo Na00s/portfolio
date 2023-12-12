@@ -70,7 +70,7 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white; /* Adjust color if needed */
+    color: rgb(15, 15, 15); /* Adjust color if needed */
     font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
     z-index: 2;
