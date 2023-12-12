@@ -130,8 +130,8 @@ p {
 .logo-hover-text {
     display: none;
     position: absolute;
-    bottom: 100%;
-    left: 50%;
+    bottom: 0%;
+    left: 100%;
     transform: translateX(-50%);
     background-color: #be9e44; 
     padding: 5px;
