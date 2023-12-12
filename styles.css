@@ -144,7 +144,7 @@ p {
 
 @media screen and (max-width: 768px) {
     .logo-hover-text {
-        max-width: 100px; /* Smaller width for smaller screens */
+        max-width: 400px; /* Smaller width for smaller screens */
     }
 }
 
