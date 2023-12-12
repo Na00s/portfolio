@@ -137,7 +137,18 @@ p {
     padding: 5px;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    white-space: nowrap; /* Prevents text from wrapping */
     max-width: 150px; /* Adjust as needed */
+}
+
+/* Responsive adjustment for smaller screens */
+@media screen and (max-width: 768px) {
+    .logo-hover-text {
+        white-space: normal; /* Allow text to wrap */
+        left: 50%; /* Adjust position */
+        transform: translateX(-50%) translateY(-100%); /* Adjust position */
+        width: 100px; /* Set a fixed width */
+    }
 }
 
 .logo-item:hover img {
