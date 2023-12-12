@@ -164,8 +164,8 @@ p {
     margin: 10px;
     padding: 10px 20px;
     border-radius: 5px;
-    background: linear-gradient(45deg, #6e6e6e, #bfbfbf);
-    color: white;
+    background: linear-gradient(45deg, #996311, #bfbfbf);
+    color: rgb(8, 8, 8);
     text-decoration: none;
     transition: background-color 0.3s ease;
 }
