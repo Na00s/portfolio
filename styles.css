@@ -140,6 +140,7 @@ p {
     grid-template-columns: repeat(3, 1fr); /* 3 columns */
     gap: 20px; /* Adjust the gap between items as needed */
     padding: 20px;
+    justify-content: center;
 }
 
 .project {
@@ -154,6 +155,7 @@ p {
     max-height: 600px; /* Example max height */
     transform: scale(0.9); /* Scale down the project square */
     transition: transform 0.3s ease; /* Smooth transition for scaling */
+    margin: auto;
 }
 
 /* Enlarge the project square on hover */
@@ -170,7 +172,7 @@ p {
 
 /* New styles for hover effect */
 .project img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     z-index: 1; /* Ensure the image is on top when scaled */
 }
 
