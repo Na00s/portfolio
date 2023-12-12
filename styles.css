@@ -52,6 +52,29 @@ p {
     padding: 83px;
     background-color: #f5f5dc;
 }
+.profile-name {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for perfect centering */
+    color: white; /* Choose a color that contrasts with the circle */
+    font-family: 'Helvetica', sans-serif; /* Choose your desired font */
+    font-size: 1.2em; /* Adjust the size as needed */
+    z-index: 3; /* Ensure it's above the image */
+}
+
+.profile-circle {
+    position: relative; /* Needed for absolute positioning of the name */
+    /* ... other styles ... */
+}
+
+.profile-name {
+    color: black; /* Choose your text color */
+    font-family: 'Helvetica', sans-serif; /* Choose your desired font */
+    font-size: 1.5em; /* Adjust the size as needed */
+    text-align: center; /* Center the text if desired */
+    margin-top: 20px; /* Space above the name, adjust as needed */
+}
 
 /* Navigation Bar */
 .navbar {
