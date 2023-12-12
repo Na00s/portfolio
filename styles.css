@@ -99,11 +99,11 @@ p {
 }
 
 .school-logos .logo-item:nth-child(1) {
-    top: 10px;
-    right: 180px;
+    top: 0px;
+    right: 200px;
     transform: rotate(0deg);
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
 }
 
 .school-logos .logo-item:nth-child(2) {
