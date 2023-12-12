@@ -137,7 +137,6 @@ p {
     padding: 5px;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-    white-space: nowrap; /* Prevents text from wrapping */
     max-width: 400px; /* Adjust as needed */
     white-space: normal;
 }
