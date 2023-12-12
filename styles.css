@@ -102,13 +102,13 @@ p {
 .school-logos img:nth-child(1) {
     top: 10px;
     right: 150px;
-    transform: rotate(-45deg);
+    transform: rotate(+45deg);
 }
 
 .school-logos img:nth-child(2) {
     top: 70px;
     right: 170px;
-    transform: rotate(-20deg);
+    transform: rotate(+10deg);
 }
 
 .school-logos img:nth-child(3) {
