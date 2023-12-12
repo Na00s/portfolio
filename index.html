@@ -92,9 +92,8 @@
 
     <script src="script.js"></script>
     <script>
-        document.querySelector('#project1 .project-title').addEventListener('click', function(event) {
-            event.preventDefault(); // Prevents the link from navigating
-            var buttons = document.querySelector('#project1 .project-buttons');
+        document.getElementById('project1').addEventListener('click', function() {
+            var buttons = this.querySelector('.project-buttons');
             buttons.style.display = buttons.style.display === 'none' ? 'block' : 'none';
         });
     </script>
