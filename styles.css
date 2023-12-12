@@ -159,6 +159,17 @@ p {
     margin: 10px 0; /* Space above and below the title */
 }
 
+/* Add these new styles */
+.project-title {
+    cursor: pointer;
+    text-decoration: underline; /* Underlines the title */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.project-title:hover {
+    color: #666; /* Change color on hover */
+}
+
 .btn {
     display: inline-block;
     margin: 10px;
