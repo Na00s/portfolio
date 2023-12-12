@@ -54,6 +54,7 @@ p {
 
 .profile-container {
     position: relative;
+    text-align: center;
 }
 
 .profile-circle {
@@ -67,13 +68,16 @@ p {
 
 .profile-name {
     position: absolute;
-    top: 50%;
+    bottom: -20px; /* Adjust as needed */
     left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(15, 15, 15); /* Adjust color if needed */
+    transform: translateX(-50%);
+    color: #000; /* Or any color that contrasts with your background */
     font-family: 'Roboto', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.5em; /* Adjust the size as needed */
     z-index: 2;
+    background-color: rgba(255, 255, 255, 0.7); /* Optional: for better visibility */
+    padding: 5px 10px; /* Optional: for better visibility */
+    border-radius: 5px; /* Optional: for rounded corners */
 }
 
 .welcome-text { 
