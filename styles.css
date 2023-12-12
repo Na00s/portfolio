@@ -159,13 +159,23 @@ p {
     margin: 10px 0; /* Space above and below the title */
 }
 
+.project-title {
+    text-decoration: none;
+    color: inherit; /* Ensures the color matches your h3 color */
+    cursor: pointer;
+}
+
+.project-title:hover h3 {
+    text-decoration: underline;
+}
+
 .button {
     display: inline-block;
     padding: 8px 15px;
     margin: 5px;
     border-radius: 4px;
-    background-color: #4CAF50;
-    color: white;
+    background-color: #5e3209;
+    color: rgba(255, 255, 255, 0);
     text-decoration: none;
     transition: background-color 0.3s;
 }

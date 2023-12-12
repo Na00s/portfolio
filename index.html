@@ -37,11 +37,15 @@
             <!-- Project 1 -->
             <div class="project" id="project1">
                 <img src="images\speech-recognition.png" alt="Project 1">
-                <h3>Speech recognition: Fine tuning and benchmarking OpenAi whisper.</h3>
+                <a href="#" class="project-title">
+                    <h3>Speech recognition: Fine tuning and benchmarking OpenAi whisper.</h3>
+                </a>
                 <div class="project-buttons" style="display: none;">
                     <a href="https://github.com/Na00s/Fine-tuning-openAI-whisper" target="_blank" class="button">Code</a>
                     <a href="https://medium.com/@ali.janati/fine-tuning-openais-whisper-vs-building-speech-recognition-models-from-scratch-881d2fcc20e2" target="_blank" class="button">Paper</a>
                 </div>
+            </div>
+
             
             </div>
             <!-- Project 2 -->
@@ -88,8 +92,9 @@
 
     <script src="script.js"></script>
     <script>
-        document.getElementById('project1').addEventListener('click', function() {
-            var buttons = this.querySelector('.project-buttons');
+        document.querySelector('#project1 .project-title').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevents the link from navigating
+            var buttons = document.querySelector('#project1 .project-buttons');
             buttons.style.display = buttons.style.display === 'none' ? 'block' : 'none';
         });
     </script>
