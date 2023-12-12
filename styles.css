@@ -150,8 +150,8 @@ p {
 }
 
 .project {
-    max-width: 180px; /* Example max width */
-    max-height: 180px; /* Example max height */
+    max-width: 250px; /* Example max width */
+    max-height: 250px; /* Example max height */
     transform: scale(0.9); /* Scale down the project square */
     transition: transform 0.3s ease; /* Smooth transition for scaling */
 }
@@ -170,7 +170,7 @@ p {
 
 /* New styles for hover effect */
 .project img:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     z-index: 1; /* Ensure the image is on top when scaled */
 }
 
