@@ -88,9 +88,9 @@ p {
 
 .school-logos {
     position: relative;
-    height: 100px; /* Adjust as needed */
-    width: 50px; /* Adjust as needed */
-    right: 0; /* Align to the right */
+    height: 300px; /* Adjusted container height */
+    width: 300px; /* Adjusted container width */
+    right: 0;
 }
 
 .logo-item {
@@ -99,34 +99,33 @@ p {
 }
 
 .school-logos .logo-item:nth-child(1) {
-    top: -50px;
-    right: 180px;
-    transform: rotate(+0deg);
-    width: 10px; /* Increased size */
-    height: auto; /* Maintain aspect ratio */
+    top: 10px;
+    right: 220px;
+    transform: rotate(0deg);
 }
 
-
-
-
 .school-logos .logo-item:nth-child(2) {
-    top: 40px;
-    right: 100px;
-    transform: rotate(+30deg);
+    top: 60px;
+    right: 260px;
+    transform: rotate(20deg);
 }
 
 .school-logos .logo-item:nth-child(3) {
-    top: 100px;
-    right: 100px;
-    transform: rotate(+60deg);
+    top: 130px;
+    right: 220px;
+    transform: rotate(40deg);
 }
 
 .school-logos .logo-item:nth-child(4) {
-    top: 150px;
-    right: 60px;
-    transform: rotate(+90deg);
+    top: 190px;
+    right: 180px;
+    transform: rotate(60deg);
 }
 
+.logo-item img {
+    width: 40px; /* Adjusted logo size */
+    height: auto;
+}
 
 .logo-hover-text {
     display: none;
@@ -134,11 +133,10 @@ p {
     bottom: 100%;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #f0f0f0; /* Futuristic color */
+    background-color: #be9e44; 
     padding: 5px;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-    /* Additional styling */
 }
 
 .logo-item:hover img {
@@ -149,6 +147,7 @@ p {
 .logo-item:hover .logo-hover-text {
     display: block;
 }
+
 
 
 
