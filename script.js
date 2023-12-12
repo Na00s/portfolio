@@ -11,3 +11,13 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    const projectTitles = document.querySelectorAll('.project-title');
+
+    projectTitles.forEach(title => {
+        title.addEventListener('click', function() {
+            this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none';
+        });
+    });
+});

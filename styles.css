@@ -159,6 +159,20 @@ p {
     margin: 10px 0; /* Space above and below the title */
 }
 
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: linear-gradient(45deg, #6e6e6e, #bfbfbf);
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background: linear-gradient(45deg, #565656, #9a9a9a);
+}
 
 
 /* Contact Section Styles */
