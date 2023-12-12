@@ -159,15 +159,7 @@ p {
     margin: 10px 0; /* Space above and below the title */
 }
 
-.project-title {
-    text-decoration: none;
-    color: inherit; /* Ensures the color matches your h3 color */
-    cursor: pointer;
-}
 
-.project-title:hover h3 {
-    text-decoration: underline;
-}
 
 /* Contact Section Styles */
 .contact-section {
