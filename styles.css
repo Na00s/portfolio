@@ -115,13 +115,13 @@ p {
 
 .school-logos img:nth-child(3) {
     top: 130px;
-    right: 110px;
+    right: 100px;
     transform: rotate(+40deg);
 }
 
 .school-logos img:nth-child(4) {
     top: 180px;
-    right: 70px;
+    right: 60px;
     transform: rotate(+60deg);
 }
 
