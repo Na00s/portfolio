@@ -149,6 +149,18 @@ p {
     overflow: hidden; /* Ensures content fits within the borders */
 }
 
+.project {
+    /* Other styles... */
+    transform: scale(0.9); /* Scale down the project square */
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+/* Enlarge the project square on hover */
+.project:hover {
+    transform: scale(1); /* Scale back to original size on hover */
+    z-index: 1; /* Bring the hovered project square to the front */
+}
+
 .project img {
     width: 100%; /* Full width of the container */
     height: auto; /* Maintain aspect ratio */
