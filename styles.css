@@ -130,13 +130,15 @@ p {
 .logo-hover-text {
     display: none;
     position: absolute;
-    bottom: 0%;
-    left: 100%;
-    transform: translateX(-50%);
-    background-color: #be9e44; 
+    top: 50%; /* Align vertically with the center of the logo */
+    left: 110%; /* Position to the right of the logo */
+    transform: translateY(-50%); /* Vertically center the text with respect to the logo */
+    background-color: #be9e44;
     padding: 5px;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    white-space: nowrap; /* Prevents text from wrapping */
+    max-width: 150px; /* Adjust as needed */
 }
 
 .logo-item:hover img {
