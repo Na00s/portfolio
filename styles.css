@@ -100,7 +100,7 @@ p {
 
 .school-logos .logo-item:nth-child(1) {
     top: 0px;
-    right: 200px;
+    right: 20px;
     transform: rotate(0deg);
     width: 80px;
     height: 80px;
@@ -108,20 +108,20 @@ p {
 
 .school-logos .logo-item:nth-child(2) {
     top: 60px;
-    right: 160px;
-    transform: rotate(20deg);
+    right: 20px;
+    transform: rotate(0deg);
 }
 
 .school-logos .logo-item:nth-child(3) {
     top: 130px;
-    right: 120px;
-    transform: rotate(40deg);
+    right: 20px;
+    transform: rotate(0deg);
 }
 
 .school-logos .logo-item:nth-child(4) {
     top: 190px;
-    right: 80px;
-    transform: rotate(60deg);
+    right: 20px;
+    transform: rotate(0deg);
 }
 
 .logo-item img {
