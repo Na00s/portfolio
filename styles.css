@@ -170,12 +170,6 @@ p {
     transition: transform 0.3s ease; /* Add transition for smooth scaling */
 }
 
-/* New styles for hover effect */
-.project img:hover {
-    transform: scale(1.1);
-    z-index: 1; /* Ensure the image is on top when scaled */
-}
-
 
 
 .project h3 {
