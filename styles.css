@@ -86,6 +86,44 @@ p {
     text-align: left; 
 }
 
+.school-logos {
+    position: relative;
+    height: 200px; /* Adjust as needed */
+    width: 200px; /* Adjust as needed */
+    right: 0; /* Align to the right */
+}
+
+.school-logos img {
+    position: absolute;
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+}
+
+.school-logos img:nth-child(1) {
+    top: 10px;
+    right: 150px;
+    transform: rotate(-45deg);
+}
+
+.school-logos img:nth-child(2) {
+    top: 70px;
+    right: 170px;
+    transform: rotate(-20deg);
+}
+
+.school-logos img:nth-child(3) {
+    top: 130px;
+    right: 150px;
+    transform: rotate(5deg);
+}
+
+.school-logos img:nth-child(4) {
+    top: 180px;
+    right: 100px;
+    transform: rotate(30deg);
+}
+
+
 
 /* Navigation Bar */
 .navbar {
