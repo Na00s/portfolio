@@ -131,8 +131,8 @@ p {
     display: none;
     position: absolute;
     top: 50%; /* Align vertically with the center of the logo */
-    left: 110%; /* Position to the right of the logo */
-    transform: translateY(-50%); /* Vertically center the text with respect to the logo */
+    left: 100%; /* Position to the right of the logo */
+    transform: translateX(0) translateY(-50%); /* Vertically center the text with respect to the logo */
     background-color: #be9e44;
     padding: 5px;
     border-radius: 5px;
@@ -141,13 +141,13 @@ p {
     max-width: 150px; /* Adjust as needed */
 }
 
-/* Responsive adjustment for smaller screens */
+/* Adjust text position if it's too close to the right edge of the page */
 @media screen and (max-width: 768px) {
     .logo-hover-text {
-        white-space: normal; /* Allow text to wrap */
-        left: 50%; /* Adjust position */
-        transform: translateX(-50%) translateY(-100%); /* Adjust position */
-        width: 100px; /* Set a fixed width */
+        left: auto; /* Disable left positioning */
+        right: 100%; /* Position to the left of the logo */
+        transform: translateX(-100%) translateY(-50%); /* Adjust position */
+        max-width: 100px; /* Adjust maximum width for smaller screens */
     }
 }
 
