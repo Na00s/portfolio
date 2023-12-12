@@ -68,7 +68,7 @@ p {
 
 .profile-name {
     position: absolute;
-    bottom: 220px; /* Adjust as needed */
+    bottom: 210px; /* Adjust as needed */
     left: 50%;
     transform: translateX(-50%);
     color: #000; /* Or any color that contrasts with your background */
@@ -78,6 +78,7 @@ p {
     background-color: #f5f5dc; /* Optional: for better visibility */
     padding: 5px 10px; /* Optional: for better visibility */
     border-radius: 5px; /* Optional: for rounded corners */
+    white-space: nowrap; 
 }
 
 .welcome-text { 
