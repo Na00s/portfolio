@@ -86,75 +86,9 @@ p {
     text-align: left; 
 }
 
-.school-logos {
-    position: relative;
-    height: 300px; /* Adjusted container height */
-    width: 300px; /* Adjusted container width */
-    right: 0;
-}
 
-.logo-item {
-    position: absolute;
-    cursor: pointer;
-}
 
-.school-logos .logo-item:nth-child(1) {
-    top: 0px;
-    right: 140px;
-    transform: rotate(0deg);
-}
 
-.school-logos .logo-item:nth-child(2) {
-    top: 80px;
-    right: 140px;
-    transform: rotate(0deg);
-}
-
-.school-logos .logo-item:nth-child(3) {
-    top: 160px;
-    right: 140px;
-    transform: rotate(0deg);
-}
-
-.school-logos .logo-item:nth-child(4) {
-    top: 240px;
-    right: 140px;
-    transform: rotate(0deg);
-}
-
-.logo-item img {
-    width: 40px; /* Adjusted logo size */
-    height: auto;
-}
-
-.logo-hover-text {
-    display: none;
-    position: absolute;
-    top: 50%; /* Align vertically with the center of the logo */
-    left: 100%; /* Position to the right of the logo */
-    transform: translateX(0) translateY(-50%); /* Vertically center the text with respect to the logo */
-    background-color: #be9e44;
-    padding: 5px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-    max-width: 500px; /* Adjust as needed */
-    white-space: normal;
-}
-
-@media screen and (max-width: 768px) {
-    .logo-hover-text {
-        max-width: 400px; /* Smaller width for smaller screens */
-    }
-}
-
-.logo-item:hover img {
-    transform: scale(1.5);
-    transition: transform 0.3s ease;
-}
-
-.logo-item:hover .logo-hover-text {
-    display: block;
-}
 
 
 
