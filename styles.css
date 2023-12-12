@@ -150,8 +150,8 @@ p {
 }
 
 .project {
-    max-width: 400px; /* Example max width */
-    max-height: 400px; /* Example max height */
+    max-width: 600px; /* Example max width */
+    max-height: 600px; /* Example max height */
     transform: scale(0.9); /* Scale down the project square */
     transition: transform 0.3s ease; /* Smooth transition for scaling */
 }
