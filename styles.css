@@ -159,6 +159,21 @@ p {
     margin: 10px 0; /* Space above and below the title */
 }
 
+.button {
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
 
 /* Contact Section Styles */
 .contact-section {
