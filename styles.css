@@ -93,36 +93,61 @@ p {
     right: 0; /* Align to the right */
 }
 
-.school-logos img {
+.logo-item {
     position: absolute;
-    width: 50px; /* Adjust the size as needed */
-    height: auto;
+    cursor: pointer;
 }
 
-.school-logos img:nth-child(1) {
+.school-logos .logo-item:nth-child(1) {
     top: -20px;
     right: 180px;
     transform: rotate(+0deg);
-    width: 60px; /* Increased size */
+    width: 70px; /* Increased size */
     height: auto; /* Maintain aspect ratio */
 }
 
-.school-logos img:nth-child(2) {
+
+
+
+.school-logos .logo-item:nth-child(2) {
     top: 40px;
     right: 140px;
     transform: rotate(+30deg);
 }
 
-.school-logos img:nth-child(3) {
+.school-logos .logo-item:nth-child(3) {
     top: 100px;
     right: 100px;
     transform: rotate(+60deg);
 }
 
-.school-logos img:nth-child(4) {
+.school-logos .logo-item:nth-child(4) {
     top: 150px;
     right: 60px;
     transform: rotate(+90deg);
+}
+
+
+.logo-hover-text {
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f0f0f0; /* Futuristic color */
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    /* Additional styling */
+}
+
+.logo-item:hover img {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.logo-item:hover .logo-hover-text {
+    display: block;
 }
 
 
